@@ -1,0 +1,44 @@
+.productcard-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.productcard {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 0 0 calc(25% - 20px); /* Adjust as needed */
+  margin-bottom: 10px;
+  color: black;
+}
+.productcard a {
+  color: inherit; /* Inherit color from parent element */
+  text-decoration: none; /* Remove underline */
+}
+
+.image {
+  max-width: 50%;
+  height: auto;
+}
+
+.single-image {
+ width: 300px;
+ height: 300px;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin-top: 0;
+}
+
+h4 {
+  color: #007bff;
+}
+
+p {
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
